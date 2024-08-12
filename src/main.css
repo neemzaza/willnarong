@@ -1,0 +1,232 @@
+/*Theme color: #ffdd00
+and => #0052a3*/
+@font-face {
+    font-family: kulachat-slab;
+    src: url(KulachatSlab-Regular.ttf);
+}
+* {
+    font-family: kulachat-slab, sans-serif;;
+    line-height: 20px;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.page {
+    background: linear-gradient(#fffdf2, #e5e5e5);
+}
+
+/* NavBar */
+#navbarscroll {
+    transition: 0.3s;
+}
+
+.main {
+    background: linear-gradient(#0052a3,rgb(0, 98, 196) );
+}
+
+.sidebar {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    max-width: 230px;
+    overflow: auto;
+    background: rgb(0, 98, 196);
+    padding: 20px;
+    box-shadow: -10px 0px 25px rgba(0,0,0,0.3);
+    z-index: 1;
+}
+
+.menulink h5:hover {
+    background: #ffdd00;
+    color: #000;
+}
+
+.menulink h5 {
+    background:rgb(0, 111, 221);
+    color: #fff;
+    height: 30px;
+    border-radius: 8px;
+    padding: 3px 10px;
+    transition: all 0.3s;
+}
+
+
+.inbody {
+    padding: 20px 250px;
+}
+
+.content {
+    margin-top: 55px;
+}
+
+.bgwillnarong {
+    background: #ffdd00;
+}
+
+.profilesidebar {
+    position: fixed;
+    bottom: 20px;
+    display: flex;
+    color: white;
+}
+
+.profilesidebar p {
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+.logoimg {
+    width: 23px;
+}
+
+#navbaryellow {
+    transition: all 0.3s;
+}
+
+.flex {
+    display: flex;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 16.8px;
+    color: #000;
+}
+
+.menulink .here {
+    color: #ffc400;
+    font-weight: bold;
+}
+
+#titlenavbar {
+    transition: all 0.3s;
+}
+
+/* Welcome Page (Login and Sign Up Page!!) */
+/* .welcome {
+    background: #ffc400;
+    height: 100%;
+} */
+
+.welcome {
+  height: 100%;
+  background: #ffd900;
+}
+
+.signup {
+    height: 100%;
+    background: #0052a3;
+}
+
+.titletextlight {
+    background: -webkit-linear-gradient(#00a2ff, #0052a3);
+}
+
+.titletext {
+    background: -webkit-linear-gradient(white, grey);
+}
+
+.titletext, .titletextlight {
+    font-weight: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.rightalign {
+    text-align: end;
+}
+
+/* Card Airwavy's Style */
+.card {
+    border-radius: 14px !important;
+    background: #fafafa;
+    border: none;
+    box-shadow: 0px 2px 3px rgba(0,0,0,0.3);
+}
+
+.sectionsignup {
+    background: #00a2ff;
+}
+
+.welimg {
+    max-width: 455px;
+    width: 100%;
+    max-height: 455px;
+    height: 100%;
+}
+
+.btn {
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.btn:hover {
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0px 2px 3px rgba(0,0,0,0.4);
+    font-weight: bold;
+}
+
+input {
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 2px 3px rgba(0,0,0,0.1);
+}
+
+.submit {
+    background: #0052a3;
+    width: 80px;
+    height: 40px;
+    color: #f0f0f0;
+    transition: 0.3s;
+}
+.submit:hover {
+    background: #ffd900;
+    color: #000;
+}
+.formsignup {
+    background: rgb(243, 243, 243);
+    border-radius: 10px;
+    border: 2px solid #0052a3;
+}
+
+/* Footer! */
+.footer {
+    background: #00a2ff;
+}
+.footer2 {
+    background: #ffdd00;
+}
+
+/* Loading Animation */
+.loading {
+    border-radius: 10px;
+    animation: loading 2s infinite;
+}
+
+.loading:nth-child(3) {
+    border-radius: 10px;
+    animation: loading2 2s infinite;
+}
+
+@keyframes loading{
+    from {
+        background-color: #fff;
+    } to {
+        background-color: #e4e4e4;
+    }
+}
+@keyframes loading2{
+    from {
+        background-color: #e4e4e4;
+    } to {
+        background-color: #fff;
+    }
+}
